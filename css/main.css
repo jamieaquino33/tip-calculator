@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(teal, purple);
+}
+
+#container {
+    background-color: rosybrown;
+    height: 525px;
+    width: 360px;
+    margin: 100px auto; /*Give the element a margin of 100px on the top and bottom and automatically calculate the left                        and right margin to center in horizontally*/
+    border-radius: 20px; /*round off edges of the element*/
+    box-shadow: 8px 12px 11px teal, -8px -12px 11px purple; /* Box shadow properties: horizontal offset vertical offset(optional) blur(optional) spread(optional) color.*/
+}
+
+h1 {
+    background-color: darkmagenta;
+    color: teal;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20pt;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Asap', sans-serif;
+    font-weight: bolder;
+}
+
+p {
+    padding-left: 20px;
+}
+
+#billAmt {
+   margin-left: 20px;
+   border-radius: 5px;
+   border-color: blueviolet;
+   box-shadow: -2px -3px 4px turquoise, 2px 3px 4px blueviolet;
+   font-family: 'Trirong', serif;
+}
+
+
+#service {
+    margin-left: 20px;
+    border-radius: 5px;
+    border-color: blueviolet;
+    box-shadow: -2px -3px 4px turquoise, 2px 3px 4px blueviolet;
+    font-family: 'Trirong', serif;
+}
+
+#peopleAmt {
+    margin-left: 20px;
+    border-radius: 5px;
+    border-color: blueviolet;
+    box-shadow: -2px -3px 4px turquoise, 2px 3px 4px blueviolet;
+    font-family: 'Trirong', serif;
+}
+
+p {
+    font-family: 'Trirong', serif;
+}
