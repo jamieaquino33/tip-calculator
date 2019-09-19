@@ -44,13 +44,16 @@
                         <!-- text input to get the number of people sharing the bill-->
                         <input id="peopleAmt" type="text" placeholder="Number of People">
 
-                        <button type="button" id="calculateTip">Calculate!</button>
                         <!--button to calculate the tip-->
+                        <button type="button" id="calculateTip">Calculate!</button>
+                        <!-- button to reset tip calculator-->
+                        <button type="button" id="reset">Reset</button>
 
                     </form>
                 <div id="tipAmount" style="display: none;">
                     <sup>$</sup><span id="tip">0.00</span>
                     <small>each</small>
+                    <sup>$</sup><span id="total">0.00</span>
                     <!--container to hold the tip information-->
                 </div>
             </div>
