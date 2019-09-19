@@ -29,7 +29,7 @@ p {
     padding-left: 20px;
 }
 
-#billAmt {
+#billAmt, #serviceQual, #peopleAmt { 
    margin-left: 20px;
    border-radius: 5px;
    border-color: blueviolet;
@@ -38,22 +38,30 @@ p {
 }
 
 
-#service {
-    margin-left: 20px;
-    border-radius: 5px;
-    border-color: blueviolet;
-    box-shadow: -2px -3px 4px turquoise, 2px 3px 4px blueviolet;
-    font-family: 'Trirong', serif;
-}
-
-#peopleAmt {
-    margin-left: 20px;
-    border-radius: 5px;
-    border-color: blueviolet;
-    box-shadow: -2px -3px 4px turquoise, 2px 3px 4px blueviolet;
-    font-family: 'Trirong', serif;
-}
 
 p {
     font-family: 'Trirong', serif;
+}
+
+#billAmt:focus, #serviceQual:focus {
+    border: 3px solid green;
+    outline: none;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    font-size: 20pt;
+    background-color: yellow;
+    color: teal;
+}
+
+#tipAmount {
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
 }
